@@ -28,14 +28,14 @@ from typing import List
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
 
-        a = ""
+        suffix = ""
         for i in zip(*strs):
             if len(set(i)) == 1: 
                 print(i)
-                a += i[0]
+                suffix += i[0]
             else: 
-                return a
-        return a
+                return suffix
+        return suffix
 
 def read_input():
 
