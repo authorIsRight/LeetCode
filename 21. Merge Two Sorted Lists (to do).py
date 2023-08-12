@@ -37,7 +37,7 @@ class Solution:
         dummy = ListNode(0)
         current = dummy
 
-# to think on this after repeating node
+# yet to be solved, shold repeat node :( you can check others
 
 
 def read_func():
